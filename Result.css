@@ -1,12 +1,58 @@
+@font-face { 
+	font-family: 'National'; 
+	src: url('https://www.usc.edu/assets/fonts/NationalWeb-Regular.eot'); 
+	src: local(':)'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Regular.woff') format('woff'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Regular.ttf') format('truetype'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Regular.svg') format('svg'); 
+	font-weight: 500; 
+	font-style: normal; 
+}
+
+@font-face { 
+	font-family: 'National'; 
+	src: url('https://www.usc.edu/assets/fonts/NationalWeb-Semibold.eot'); 
+	src: local(':)'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Semibold.woff') format('woff'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Semibold.ttf') format('truetype'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Semibold.svg') format('svg'); 
+	font-weight: 700; 
+	font-style: normal; 
+}
+
+@font-face { 
+	font-family: 'National'; 
+	src: url('https://www.usc.edu/assets/fonts/NationalWeb-Bold.eot'); 
+	src: local(':)'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Bold.woff') format('woff'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Bold.ttf') format('truetype'), 
+	url('https://www.usc.edu/assets/fonts/NationalWeb-Bold.svg') format('svg'); 
+	font-weight: 800; 
+	font-style: normal; 
+}
+
+
+
+
+
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: National !important;
 }
 
 .m-r-10{
     margin-right: 10px;
 }
-
+.no-padding{
+    padding: 0px !important;
+}
+.navbar-brand img{
+    max-height: 42px;
+}
 .bg-border{
+    border-bottom: 1px solid #eee;
+}
+.navbar-light{
     border-bottom: 1px solid #eee;
 }
 
@@ -31,6 +77,16 @@ body{
     padding: 15px 10px;
 }
 
+.search-box-wrapper{
+    background: #eee;
+    border-radius: 4px;
+}
+.input-style{
+    background: transparent !important;
+    border: none !important;
+}
+.border-0{
+}
 .Page-Wrapper-container{
     margin-top: 35px;
 }
@@ -79,6 +135,12 @@ body{
     padding: 8px 12px;
     border: none;
     border-radius: 4px;
+}
+
+.micron-btn:hover{
+    background: transparent;
+    color: #0D98D8;
+    border: 1px solid #0D98D8;
 }
 
 .result-list-card-content-botton{    

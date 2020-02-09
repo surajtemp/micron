@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./Result.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Result.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <title>Hello, world!</title>
@@ -19,31 +19,42 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-border">
-    <a href="/" class="navbar-brand"><img src="./assets/logo.png"> </a> <button class="navbar-toggler" type="button"
-      data-toggle="collapse" data-target="#navbar5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand no-padding" href="#"><img src="./assets/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav ml-auto">
 
-
-    <div class="navbar-collapse collapse header-right">
-      <form class="mx-2 my-auto d-inline">
-        <div class="input-group">
-          <input type="text" class="form-control border border-right-0" placeholder="Search...">
-          <span class="input-group-append">
-            <button class="btn btn-outline-secondary border border-left-0" type="button">
-              <i class="fa fa-search"></i>
-            </button>
-          </span>
-        </div>
-      </form>
-
-      <ul class="navbar-nav">
+        <li class="nav-item">
+          <form class="">           
+            <div class="input-group search-box-wrapper">
+              <a class="nav-link" href="http://example.com" id="categorydropdown" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> Username
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="categorydropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>  
+              <input type="text" class="form-control input-style" placeholder="Search...">              
+              <span class="input-group-append">                
+                <button class="btn btn-outline-secondary border-0" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+       
         <li class="nav-item">
           <a class="nav-link Add-book-btn" href="#">Add your book</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">My books</a>
+          <a class="nav-link" href="#">My Book</a>
         </li>
         <li class="nav-item">
           <ul class="navbar-nav">
@@ -62,8 +73,8 @@
         </li>
       </ul>
     </div>
-
   </nav>
+
 
 
   <div class="container Page-Wrapper-container">
@@ -90,7 +101,7 @@
           <div class="row">
             <div class="col-md-3">
               <div class="list-book-img">
-                <img src="./assets/placeholder.png">
+                <img src="./assets/image.jpg">
               </div>
             </div>
             <div class="col-md-9">
@@ -160,7 +171,7 @@
               </div>
             </div>
           </div>
-        </div> 
+        </div>
       </div>
     </div>
   </div>
