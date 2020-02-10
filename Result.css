@@ -1,153 +1,149 @@
-@font-face { 
-	font-family: 'National'; 
-	src: url('assets/fonts/NationalWeb-Regular.eot'); 
-	src: local(':)'), 
-	url('assets/fonts/NationalWeb-Regular.woff') format('woff'), 
-	url('assets/fonts/NationalWeb-Regular.ttf') format('truetype'), 
-	url('assets/fonts/NationalWeb-Regular.svg') format('svg'); 
-	font-weight: 500; 
-	font-style: normal; 
+@font-face {
+    font-family: 'National';
+    src        : url('assets/fonts/NationalWeb-Regular.eot');
+    src        : local(':)'), url('assets/fonts/NationalWeb-Regular.woff') format('woff'), url('assets/fonts/NationalWeb-Regular.ttf') format('truetype'), url('assets/fonts/NationalWeb-Regular.svg') format('svg');
+    font-weight: 500;
+    font-style : normal;
 }
 
-@font-face { 
-	font-family: 'National'; 
-	src: url('assets/fonts/NationalWeb-Semibold.eot'); 
-	src: local(':)'), 
-	url('assets/fonts/NationalWeb-Semibold.woff') format('woff'), 
-	url('assets/fonts/NationalWeb-Semibold.ttf') format('truetype'), 
-	url('assets/fonts/NationalWeb-Semibold.svg') format('svg'); 
-	font-weight: 700; 
-	font-style: normal; 
+@font-face {
+    font-family: 'National';
+    src        : url('assets/fonts/NationalWeb-Semibold.eot');
+    src        : local(':)'), url('assets/fonts/NationalWeb-Semibold.woff') format('woff'), url('assets/fonts/NationalWeb-Semibold.ttf') format('truetype'), url('assets/fonts/NationalWeb-Semibold.svg') format('svg');
+    font-weight: 700;
+    font-style : normal;
 }
 
-@font-face { 
-	font-family: 'National'; 
-	src: url('assets/fonts/NationalWeb-Bold.eot'); 
-	src: local(':)'), 
-	url('assets/fonts/NationalWeb-Bold.woff') format('woff'), 
-	url('assets/fonts/NationalWeb-Bold.ttf') format('truetype'), 
-	url('assets/fonts/NationalWeb-Bold.svg') format('svg'); 
-	font-weight: 800; 
-	font-style: normal; 
+@font-face {
+    font-family: 'National';
+    src        : url('assets/fonts/NationalWeb-Bold.eot');
+    src        : local(':)'), url('assets/fonts/NationalWeb-Bold.woff') format('woff'), url('assets/fonts/NationalWeb-Bold.ttf') format('truetype'), url('assets/fonts/NationalWeb-Bold.svg') format('svg');
+    font-weight: 800;
+    font-style : normal;
 }
 
-
-
-
-
-
-body{
+body {
     font-family: National !important;
 }
 
-.m-r-10{
+.m-r-10 {
     margin-right: 10px;
 }
-.no-padding{
+
+.no-padding {
     padding: 0px !important;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     max-height: 42px;
 }
-.bg-border{
-    border-bottom: 1px solid #eee;
-}
-.navbar-light{
+
+.bg-border {
     border-bottom: 1px solid #eee;
 }
 
-.Add-book-btn{
-    background-color: #0D98D8;
-    color: #fff !important;
-    border-radius: 4px;
-    padding: 8px 16px !important;
+.navbar-light {
+    border-bottom: 1px solid #eee;
 }
-.nav-item{
+
+.Add-book-btn {
+    background-color: #0D98D8;
+    color           : #fff !important;
+    border-radius   : 4px;
+    padding         : 8px 16px !important;
+}
+
+.nav-item {
     margin: 0px 10px !important;
 }
-.nav-link{
+
+.nav-link {
     font-weight: 400;
-    color: #000;
+    color      : #000;
 }
 
-.Left-category-list-section{
+.Left-category-list-section {
     background-color: #eee;
-    height: 100%;
-    border-radius: 4px;
-    padding: 15px 10px;
+    height          : 100%;
+    border-radius   : 4px;
+    padding         : 15px 10px;
 }
 
-.search-box-wrapper{
-    background: #eee;
+.search-box-wrapper {
+    background   : #eee;
     border-radius: 4px;
 }
-.input-style{
+
+.input-style {
     background: transparent !important;
-    border: none !important;
+    border    : none !important;
 }
-.border-0{
-}
-.Page-Wrapper-container{
+
+.border-0 {}
+
+.Page-Wrapper-container {
     margin-top: 35px;
 }
 
-
-.Left-category-list-section h4{
+.Left-category-list-section h4 {
     margin-bottom: 25px;
-    padding-left: 5px;
+    padding-left : 5px;
 }
-.Category-list{    
+
+.Category-list {
     padding: 0px;
 }
-.Category-list li{
-    list-style: none;
-    background: #fff;
-    padding: 8px 12px;
-    margin: 5px;
-    display: inline-block; 
+
+.Category-list li {
+    list-style   : none;
+    background   : #fff;
+    padding      : 8px 12px;
+    margin       : 5px;
+    display      : inline-block;
     border-radius: 4px;
-    cursor: pointer;
-}
-.Category-list li:hover{
-    background: #0D98D8;
-    color: #fff;
+    cursor       : pointer;
 }
 
-.result-title{
-    padding: 15px 0px;
+.Category-list li:hover {
+    background: #0D98D8;
+    color     : #fff;
+}
+
+.result-title {
+    padding      : 15px 0px;
     border-bottom: 1px solid #eee;
 }
 
-
-.list-book-img img{
-    height: 250px;
-    width: 100%;
+.list-book-img img {
+    height       : 250px;
+    width        : 100%;
     border-radius: 8px;
 }
 
-.owmer-name{
+.owmer-name {
     font-weight: 400;
 }
 
-.micron-btn{
-    background: #0D98D8;
-    color: #fff;
-    padding: 8px 12px;
-    border: none;
+.micron-btn {
+    background   : #0D98D8;
+    color        : #fff;
+    padding      : 8px 12px;
+    border       : none;
     border-radius: 4px;
 }
 
-.micron-btn:hover{
+.micron-btn:hover {
     background: transparent;
-    color: #0D98D8;
-    border: 1px solid #0D98D8;
+    color     : #0D98D8;
+    border    : 1px solid #0D98D8;
 }
 
-.result-list-card-content-botton{    
+.result-list-card-content-botton {
     bottom: 5px;
-    width: 100%;
+    width : 100%;
 }
-.list-card-row{
-    padding: 20px 0px;
+
+.list-card-row {
+    padding      : 20px 0px;
     border-bottom: 1px solid #eee;
 }

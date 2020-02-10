@@ -1,38 +1,46 @@
-.m-0{
+.m-0 {
     margin: 0px;
 }
 
-.owmer-name{
+.owmer-name {
     cursor: pointer;
 }
-.owmer-name:hover{
+
+.owmer-name:hover {
     text-decoration-line: underline;
 }
-.list-book-img button{
-    margin: 15px 0px;    
+
+.list-book-img button {
+    margin: 15px 0px;
 }
-.Review-header{
-    margin-top: 25px;
+
+.Review-header {
+    margin-top   : 25px;
     border-bottom: 1px solid #eee;
 }
-.avatar-img{
-    height: 60px;
-    width: 60px;
+
+.avatar-img {
+    height       : 60px;
+    width        : 60px;
     border-radius: 4px;
 }
-.Comment-section{
+
+.Comment-section {
     padding: 20px 0px;
 }
-.similar-books img{
+
+.similar-books img {
     padding: 5px;
-    width: 100%;
+    width  : 100%;
 }
-.viewallbtn{
+
+.viewallbtn {
     background: #fff;
-    border: none;
-    margin: 5px;
+    border    : none;
+    margin    : 5px;
     text-align: right;
 }
-.viewallbtn:hover{
-   text-decoration-line: underline;
+
+.viewallbtn:hover {
+    text-decoration-line: underline;
 }
